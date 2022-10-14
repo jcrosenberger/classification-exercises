@@ -1,0 +1,10 @@
+env.py
+.ipynb_checkpoints/
+.DS_Store
+__pycache__
+.vscode
+titanic.csv
+iris.csv
+telco.csv
+*.csv 
+*.xlsx

@@ -4,4 +4,7 @@ def detective_ball_bounce(n):
         n = n*2
     print('The ball began bouncing at', round(n,3),' height')
 
-detective_ball_bounce(600)
+
+
+n= input()
+detective_ball_bounce(int(n))

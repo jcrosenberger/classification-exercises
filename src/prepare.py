@@ -89,10 +89,10 @@ def split_titanic_data(df):
     Takes in a dataframe and return train, validate, test subset dataframes
     '''
     # Creates the test set
-    train, test = train_test_split(df, test_size = .2, random_state=123, stratify=df.survived)
+    train, test = train_test_split(df, test_size = .2, random_state=7, stratify=df.survived)
     
     # Creates the final train and validate set
-    train, validate = train_test_split(train, test_size=.3, random_state=123, stratify=train.survived)
+    train, validate = train_test_split(train, test_size=.3, random_state=7, stratify=train.survived)
     
     return train, validate, test
 
